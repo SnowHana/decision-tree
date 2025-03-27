@@ -1,0 +1,48 @@
+digraph {
+	0 [label="X_0 <= 1
+Gain: 0.1755"]
+	0 -> "0L" [label=True]
+	0 -> "0R" [label=False]
+	"0L" [label="X_2 <= 0
+Gain: 0.1127"]
+	"0L" -> "0LL" [label=True]
+	"0L" -> "0LR" [label=False]
+	"0LL" [label="X_0 <= 0
+Gain: 0.4964"]
+	"0LL" -> "0LLL" [label=True]
+	"0LL" -> "0LLR" [label=False]
+	"0LLL" [label="Leaf: 0"]
+	"0LLR" [label="Leaf: 1"]
+	"0LR" [label="Leaf: 1"]
+	"0R" [label="X_2 <= 1
+Gain: 0.2402"]
+	"0R" -> "0RL" [label=True]
+	"0R" -> "0RR" [label=False]
+	"0RL" [label="Leaf: 1"]
+	"0RR" [label="X_0 <= 2
+Gain: 0.2386"]
+	"0RR" -> "0RRL" [label=True]
+	"0RR" -> "0RRR" [label=False]
+	"0RRL" [label="Leaf: 2"]
+	"0RRR" [label="X_2 <= 2
+Gain: 0.2903"]
+	"0RRR" -> "0RRRL" [label=True]
+	"0RRR" -> "0RRRR" [label=False]
+	"0RRRL" [label="Leaf: 2"]
+	"0RRRR" [label="X_0 <= 3
+Gain: 0.2436"]
+	"0RRRR" -> "0RRRRL" [label=True]
+	"0RRRR" -> "0RRRRR" [label=False]
+	"0RRRRL" [label="Leaf: 3"]
+	"0RRRRR" [label="X_2 <= 3
+Gain: 0.2600"]
+	"0RRRRR" -> "0RRRRRL" [label=True]
+	"0RRRRR" -> "0RRRRRR" [label=False]
+	"0RRRRRL" [label="Leaf: 3"]
+	"0RRRRRR" [label="X_0 <= 4
+Gain: 0.1667"]
+	"0RRRRRR" -> "0RRRRRRL" [label=True]
+	"0RRRRRR" -> "0RRRRRRR" [label=False]
+	"0RRRRRRL" [label="Leaf: 4"]
+	"0RRRRRRR" [label="Leaf: 5"]
+}
