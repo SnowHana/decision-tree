@@ -34,7 +34,9 @@ However, after cleaning data, it turns out we only have 4 meaningful features.
 1. is_home
 2. home_position
 3. opponent_position
-4. Goals - Opponents and clubs
+<!-- 4. Goals - Opponents and clubs -->
+
+### Reflection
 
 ![](./img/club_games_tree_v1.png)
 
@@ -51,4 +53,6 @@ accuracy_score(Y_test, Y_pred)
 > 0.4072
 ```
 
-Also, our accuracy score is pretty low as well, and this is probably because we don't throughly did this...
+Our accuracy score is pretty low as well, and this is probably because we don't throughly did this...
+
+I think this is due to dataset itself, because
