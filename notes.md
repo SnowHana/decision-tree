@@ -45,14 +45,22 @@ Because we want to _predict_ the match, but goals are data we get post match...
 
 ie: Even a 5 yr old can _predict_ the match result after he / she has a data about goals scored in the game
 
+![](./img/club_games_tree_v2.png)
+
 ```python
 Y_pred = classifier.predict(X_test)
 from sklearn.metrics import accuracy_score
 accuracy_score(Y_test, Y_pred)
 
-> 0.5289
+> 0.54
 ```
 
-Our accuracy score is pretty low as well, and this is probably because we don't throughly did this...
+Our accuracy score is pretty low as well, but I think it is quite reasonable considering our dataset only had 3 meaningful featuers (Position and Home / Away)
 
 I think this is due to dataset itself, because
+
+Also, it is pretty interesting that we got a better score with lower depths.
+
+Our decision tree considered positions of each team first and home/away lastly, this is pretty reasonable.
+
+---
