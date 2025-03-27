@@ -50,7 +50,7 @@ Y_pred = classifier.predict(X_test)
 from sklearn.metrics import accuracy_score
 accuracy_score(Y_test, Y_pred)
 
-> 0.4072
+> 0.5289
 ```
 
 Our accuracy score is pretty low as well, and this is probably because we don't throughly did this...
