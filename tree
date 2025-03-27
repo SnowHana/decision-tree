@@ -1,48 +1,308 @@
 digraph {
-	0 [label="X_0 <= 1
-Gain: 0.1755"]
+	0 [label="X_0 <= 6
+Gain: 0.0526"]
 	0 -> "0L" [label=True]
 	0 -> "0R" [label=False]
-	"0L" [label="X_2 <= 0
-Gain: 0.1127"]
+	"0L" [label="X_1 <= 5
+Gain: 0.0419"]
 	"0L" -> "0LL" [label=True]
 	"0L" -> "0LR" [label=False]
-	"0LL" [label="X_0 <= 0
-Gain: 0.4964"]
+	"0LL" [label="X_0 <= 2
+Gain: 0.0328"]
 	"0LL" -> "0LLL" [label=True]
 	"0LL" -> "0LLR" [label=False]
-	"0LLL" [label="Leaf: 0"]
-	"0LLR" [label="Leaf: 1"]
-	"0LR" [label="Leaf: 1"]
-	"0R" [label="X_2 <= 1
-Gain: 0.2402"]
+	"0LLL" [label="X_1 <= 1
+Gain: 0.0210"]
+	"0LLL" -> "0LLLL" [label=True]
+	"0LLL" -> "0LLLR" [label=False]
+	"0LLLL" [label="X_2 <= 0
+Gain: 0.0085"]
+	"0LLLL" -> "0LLLLL" [label=True]
+	"0LLLL" -> "0LLLLR" [label=False]
+	"0LLLLL" [label="Leaf: 2"]
+	"0LLLLR" [label="Leaf: 1"]
+	"0LLLR" [label="X_2 <= 0
+Gain: 0.0176"]
+	"0LLLR" -> "0LLLRL" [label=True]
+	"0LLLR" -> "0LLLRR" [label=False]
+	"0LLLRL" [label="X_1 <= 4
+Gain: 0.0058"]
+	"0LLLRL" -> "0LLLRLL" [label=True]
+	"0LLLRL" -> "0LLLRLR" [label=False]
+	"0LLLRLL" [label="Leaf: 0"]
+	"0LLLRLR" [label="Leaf: 5"]
+	"0LLLRR" [label="X_1 <= 3
+Gain: 0.0050"]
+	"0LLLRR" -> "0LLLRRL" [label=True]
+	"0LLLRR" -> "0LLLRRR" [label=False]
+	"0LLLRRL" [label="Leaf: 1"]
+	"0LLLRRR" [label="Leaf: 1"]
+	"0LLR" [label="X_1 <= 3
+Gain: 0.0141"]
+	"0LLR" -> "0LLRL" [label=True]
+	"0LLR" -> "0LLRR" [label=False]
+	"0LLRL" [label="X_2 <= 0
+Gain: 0.0069"]
+	"0LLRL" -> "0LLRLL" [label=True]
+	"0LLRL" -> "0LLRLR" [label=False]
+	"0LLRLL" [label="X_1 <= 1
+Gain: 0.0033"]
+	"0LLRLL" -> "0LLRLLL" [label=True]
+	"0LLRLL" -> "0LLRLLR" [label=False]
+	"0LLRLLL" [label="Leaf: 1"]
+	"0LLRLLR" [label="Leaf: 0"]
+	"0LLRLR" [label="X_1 <= 1
+Gain: 0.0057"]
+	"0LLRLR" -> "0LLRLRL" [label=True]
+	"0LLRLR" -> "0LLRLRR" [label=False]
+	"0LLRLRL" [label="Leaf: 1"]
+	"0LLRLRR" [label="Leaf: 1"]
+	"0LLRR" [label="X_2 <= 0
+Gain: 0.0220"]
+	"0LLRR" -> "0LLRRL" [label=True]
+	"0LLRR" -> "0LLRRR" [label=False]
+	"0LLRRL" [label="X_0 <= 4
+Gain: 0.0163"]
+	"0LLRRL" -> "0LLRRLL" [label=True]
+	"0LLRRL" -> "0LLRRLR" [label=False]
+	"0LLRRLL" [label="Leaf: 0"]
+	"0LLRRLR" [label="Leaf: 0"]
+	"0LLRRR" [label="X_0 <= 4
+Gain: 0.0101"]
+	"0LLRRR" -> "0LLRRRL" [label=True]
+	"0LLRRR" -> "0LLRRRR" [label=False]
+	"0LLRRRL" [label="Leaf: 1"]
+	"0LLRRRR" [label="Leaf: 1"]
+	"0LR" [label="X_0 <= 3
+Gain: 0.0152"]
+	"0LR" -> "0LRL" [label=True]
+	"0LR" -> "0LRR" [label=False]
+	"0LRL" [label="X_2 <= 0
+Gain: 0.0083"]
+	"0LRL" -> "0LRLL" [label=True]
+	"0LRL" -> "0LRLR" [label=False]
+	"0LRLL" [label="X_1 <= 13
+Gain: 0.0092"]
+	"0LRLL" -> "0LRLLL" [label=True]
+	"0LRLL" -> "0LRLLR" [label=False]
+	"0LRLLL" [label="X_0 <= 1
+Gain: 0.0083"]
+	"0LRLLL" -> "0LRLLLL" [label=True]
+	"0LRLLL" -> "0LRLLLR" [label=False]
+	"0LRLLLL" [label="Leaf: 1"]
+	"0LRLLLR" [label="Leaf: 0"]
+	"0LRLLR" [label="X_0 <= 2
+Gain: 0.0036"]
+	"0LRLLR" -> "0LRLLRL" [label=True]
+	"0LRLLR" -> "0LRLLRR" [label=False]
+	"0LRLLRL" [label="Leaf: 0"]
+	"0LRLLRR" [label="Leaf: 3"]
+	"0LRLR" [label="X_1 <= 11
+Gain: 0.0056"]
+	"0LRLR" -> "0LRLRL" [label=True]
+	"0LRLR" -> "0LRLRR" [label=False]
+	"0LRLRL" [label="X_0 <= 2
+Gain: 0.0056"]
+	"0LRLRL" -> "0LRLRLL" [label=True]
+	"0LRLRL" -> "0LRLRLR" [label=False]
+	"0LRLRLL" [label="Leaf: 1"]
+	"0LRLRLR" [label="Leaf: 3"]
+	"0LRLRR" [label="X_0 <= 2
+Gain: 0.0032"]
+	"0LRLRR" -> "0LRLRRL" [label=True]
+	"0LRLRR" -> "0LRLRRR" [label=False]
+	"0LRLRRL" [label="Leaf: 1"]
+	"0LRLRRR" [label="Leaf: 3"]
+	"0LRR" [label="X_1 <= 13
+Gain: 0.0161"]
+	"0LRR" -> "0LRRL" [label=True]
+	"0LRR" -> "0LRRR" [label=False]
+	"0LRRL" [label="X_2 <= 0
+Gain: 0.0178"]
+	"0LRRL" -> "0LRRLL" [label=True]
+	"0LRRL" -> "0LRRLR" [label=False]
+	"0LRRLL" [label="X_1 <= 8
+Gain: 0.0101"]
+	"0LRRLL" -> "0LRRLLL" [label=True]
+	"0LRRLL" -> "0LRRLLR" [label=False]
+	"0LRRLLL" [label="Leaf: 0"]
+	"0LRRLLR" [label="Leaf: 0"]
+	"0LRRLR" [label="X_1 <= 9
+Gain: 0.0075"]
+	"0LRRLR" -> "0LRRLRL" [label=True]
+	"0LRRLR" -> "0LRRLRR" [label=False]
+	"0LRRLRL" [label="Leaf: 1"]
+	"0LRRLRR" [label="Leaf: 1"]
+	"0LRRR" [label="X_2 <= 0
+Gain: 0.0114"]
+	"0LRRR" -> "0LRRRL" [label=True]
+	"0LRRR" -> "0LRRRR" [label=False]
+	"0LRRRL" [label="X_0 <= 5
+Gain: 0.0027"]
+	"0LRRRL" -> "0LRRRLL" [label=True]
+	"0LRRRL" -> "0LRRRLR" [label=False]
+	"0LRRRLL" [label="Leaf: 0"]
+	"0LRRRLR" [label="Leaf: 6"]
+	"0LRRRR" [label="X_0 <= 4
+Gain: 0.0033"]
+	"0LRRRR" -> "0LRRRRL" [label=True]
+	"0LRRRR" -> "0LRRRRR" [label=False]
+	"0LRRRRL" [label="Leaf: 4"]
+	"0LRRRRR" [label="Leaf: 1"]
+	"0R" [label="X_1 <= 10
+Gain: 0.0308"]
 	"0R" -> "0RL" [label=True]
 	"0R" -> "0RR" [label=False]
-	"0RL" [label="Leaf: 1"]
-	"0RR" [label="X_0 <= 2
-Gain: 0.2386"]
+	"0RL" [label="X_1 <= 4
+Gain: 0.0072"]
+	"0RL" -> "0RLL" [label=True]
+	"0RL" -> "0RLR" [label=False]
+	"0RLL" [label="X_2 <= 0
+Gain: 0.0020"]
+	"0RLL" -> "0RLLL" [label=True]
+	"0RLL" -> "0RLLR" [label=False]
+	"0RLLL" [label="X_0 <= 10
+Gain: 0.0014"]
+	"0RLLL" -> "0RLLLL" [label=True]
+	"0RLLL" -> "0RLLLR" [label=False]
+	"0RLLLL" [label="X_1 <= 2
+Gain: 0.0030"]
+	"0RLLLL" -> "0RLLLLL" [label=True]
+	"0RLLLL" -> "0RLLLLR" [label=False]
+	"0RLLLLL" [label="Leaf: 0"]
+	"0RLLLLR" [label="Leaf: 0"]
+	"0RLLLR" [label="X_0 <= 15
+Gain: 0.0004"]
+	"0RLLLR" -> "0RLLLRL" [label=True]
+	"0RLLLR" -> "0RLLLRR" [label=False]
+	"0RLLLRL" [label="Leaf: 0"]
+	"0RLLLRR" [label="Leaf: 0"]
+	"0RLLR" [label="X_0 <= 13
+Gain: 0.0027"]
+	"0RLLR" -> "0RLLRL" [label=True]
+	"0RLLR" -> "0RLLRR" [label=False]
+	"0RLLRL" [label="X_1 <= 1
+Gain: 0.0030"]
+	"0RLLRL" -> "0RLLRLL" [label=True]
+	"0RLLRL" -> "0RLLRLR" [label=False]
+	"0RLLRLL" [label="Leaf: 1"]
+	"0RLLRLR" [label="Leaf: 1"]
+	"0RLLRR" [label="X_0 <= 15
+Gain: 0.0010"]
+	"0RLLRR" -> "0RLLRRL" [label=True]
+	"0RLLRR" -> "0RLLRRR" [label=False]
+	"0RLLRRL" [label="Leaf: 1"]
+	"0RLLRRR" [label="Leaf: 1"]
+	"0RLR" [label="X_2 <= 0
+Gain: 0.0076"]
+	"0RLR" -> "0RLRL" [label=True]
+	"0RLR" -> "0RLRR" [label=False]
+	"0RLRL" [label="X_0 <= 10
+Gain: 0.0044"]
+	"0RLRL" -> "0RLRLL" [label=True]
+	"0RLRL" -> "0RLRLR" [label=False]
+	"0RLRLL" [label="X_1 <= 9
+Gain: 0.0052"]
+	"0RLRLL" -> "0RLRLLL" [label=True]
+	"0RLRLL" -> "0RLRLLR" [label=False]
+	"0RLRLLL" [label="Leaf: 0"]
+	"0RLRLLR" [label="Leaf: 10"]
+	"0RLRLR" [label="X_1 <= 7
+Gain: 0.0017"]
+	"0RLRLR" -> "0RLRLRL" [label=True]
+	"0RLRLR" -> "0RLRLRR" [label=False]
+	"0RLRLRL" [label="Leaf: 0"]
+	"0RLRLRR" [label="Leaf: 0"]
+	"0RLRR" [label="X_0 <= 13
+Gain: 0.0085"]
+	"0RLRR" -> "0RLRRL" [label=True]
+	"0RLRR" -> "0RLRRR" [label=False]
+	"0RLRRL" [label="X_0 <= 8
+Gain: 0.0052"]
+	"0RLRRL" -> "0RLRRLL" [label=True]
+	"0RLRRL" -> "0RLRRLR" [label=False]
+	"0RLRRLL" [label="Leaf: 1"]
+	"0RLRRLR" [label="Leaf: 1"]
+	"0RLRRR" [label="X_0 <= 17
+Gain: 0.0029"]
+	"0RLRRR" -> "0RLRRRL" [label=True]
+	"0RLRRR" -> "0RLRRRR" [label=False]
+	"0RLRRRL" [label="Leaf: 1"]
+	"0RLRRRR" [label="Leaf: 1"]
+	"0RR" [label="X_0 <= 13
+Gain: 0.0190"]
 	"0RR" -> "0RRL" [label=True]
 	"0RR" -> "0RRR" [label=False]
-	"0RRL" [label="Leaf: 2"]
-	"0RRR" [label="X_2 <= 2
-Gain: 0.2903"]
+	"0RRL" [label="X_2 <= 0
+Gain: 0.0128"]
+	"0RRL" -> "0RRLL" [label=True]
+	"0RRL" -> "0RRLR" [label=False]
+	"0RRLL" [label="X_1 <= 15
+Gain: 0.0105"]
+	"0RRLL" -> "0RRLLL" [label=True]
+	"0RRLL" -> "0RRLLR" [label=False]
+	"0RRLLL" [label="X_0 <= 10
+Gain: 0.0072"]
+	"0RRLLL" -> "0RRLLLL" [label=True]
+	"0RRLLL" -> "0RRLLLR" [label=False]
+	"0RRLLLL" [label="Leaf: 0"]
+	"0RRLLLR" [label="Leaf: 0"]
+	"0RRLLR" [label="X_0 <= 11
+Gain: 0.0064"]
+	"0RRLLR" -> "0RRLLRL" [label=True]
+	"0RRLLR" -> "0RRLLRR" [label=False]
+	"0RRLLRL" [label="Leaf: 0"]
+	"0RRLLRR" [label="Leaf: 0"]
+	"0RRLR" [label="X_1 <= 13
+Gain: 0.0085"]
+	"0RRLR" -> "0RRLRL" [label=True]
+	"0RRLR" -> "0RRLRR" [label=False]
+	"0RRLRL" [label="X_0 <= 7
+Gain: 0.0044"]
+	"0RRLRL" -> "0RRLRLL" [label=True]
+	"0RRLRL" -> "0RRLRLR" [label=False]
+	"0RRLRLL" [label="Leaf: 7"]
+	"0RRLRLR" [label="Leaf: 1"]
+	"0RRLRR" [label="X_1 <= 17
+Gain: 0.0050"]
+	"0RRLRR" -> "0RRLRRL" [label=True]
+	"0RRLRR" -> "0RRLRRR" [label=False]
+	"0RRLRRL" [label="Leaf: 1"]
+	"0RRLRRR" [label="Leaf: 1"]
+	"0RRR" [label="X_1 <= 17
+Gain: 0.0131"]
 	"0RRR" -> "0RRRL" [label=True]
 	"0RRR" -> "0RRRR" [label=False]
-	"0RRRL" [label="Leaf: 2"]
-	"0RRRR" [label="X_0 <= 3
-Gain: 0.2436"]
+	"0RRRL" [label="X_2 <= 0
+Gain: 0.0113"]
+	"0RRRL" -> "0RRRLL" [label=True]
+	"0RRRL" -> "0RRRLR" [label=False]
+	"0RRRLL" [label="X_0 <= 15
+Gain: 0.0036"]
+	"0RRRLL" -> "0RRRLLL" [label=True]
+	"0RRRLL" -> "0RRRLLR" [label=False]
+	"0RRRLLL" [label="Leaf: 0"]
+	"0RRRLLR" [label="Leaf: 0"]
+	"0RRRLR" [label="X_0 <= 17
+Gain: 0.0057"]
+	"0RRRLR" -> "0RRRLRL" [label=True]
+	"0RRRLR" -> "0RRRLRR" [label=False]
+	"0RRRLRL" [label="Leaf: 1"]
+	"0RRRLRR" [label="Leaf: 1"]
+	"0RRRR" [label="X_2 <= 0
+Gain: 0.0163"]
 	"0RRRR" -> "0RRRRL" [label=True]
 	"0RRRR" -> "0RRRRR" [label=False]
-	"0RRRRL" [label="Leaf: 3"]
-	"0RRRRR" [label="X_2 <= 3
-Gain: 0.2600"]
+	"0RRRRL" [label="X_0 <= 17
+Gain: 0.0111"]
+	"0RRRRL" -> "0RRRRLL" [label=True]
+	"0RRRRL" -> "0RRRRLR" [label=False]
+	"0RRRRLL" [label="Leaf: 0"]
+	"0RRRRLR" [label="Leaf: 0"]
+	"0RRRRR" [label="X_0 <= 19
+Gain: 0.0120"]
 	"0RRRRR" -> "0RRRRRL" [label=True]
 	"0RRRRR" -> "0RRRRRR" [label=False]
-	"0RRRRRL" [label="Leaf: 3"]
-	"0RRRRRR" [label="X_0 <= 4
-Gain: 0.1667"]
-	"0RRRRRR" -> "0RRRRRRL" [label=True]
-	"0RRRRRR" -> "0RRRRRRR" [label=False]
-	"0RRRRRRL" [label="Leaf: 4"]
-	"0RRRRRRR" [label="Leaf: 5"]
+	"0RRRRRL" [label="Leaf: 1"]
+	"0RRRRRR" [label="Leaf: 20"]
 }
